@@ -6,19 +6,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-    <meta name="description" content="Apex admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
-    <meta name="keywords" content="admin template, Apex admin template, dashboard template, flat admin template, responsive admin template, web app">
-    <meta name="author" content="PIXINVENT">
-    <title>Convert photos</title>
-    <link rel="shortcut icon" type="image/x-icon" href="/app-assets/img/ico/favicon.ico">
-    <link rel="shortcut icon" type="image/png" href="/app-assets/img/ico/favicon-32.png">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-touch-fullscreen" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900%7CMontserrat:300,400,500,600,700,800,900" rel="stylesheet">
-    <!-- BEGIN VENDOR CSS-->    <!-- END VENDOR CSS-->
-
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.dataTables.min.css">
 
     <!-- END: Custom CSS-->
 </head>
@@ -26,63 +13,29 @@
 
 <!-- BEGIN : Body-->
 
-<body class="vertical-layout vertical-menu 2-columns nav-collapsed" data-menu="vertical-menu" data-col="2-columns">
-    <!-- Navbar (Header) Ends-->
-
-    <!-- ////////////////////////////////////////////////////////////////////////////-->
-    <div class="wrapper">
 
 
-        <!-- main menu-->
-        <!--.main-menu(class="#{menuColor} #{menuOpenType}", class=(menuShadow == true ? 'menu-shadow' : ''))-->
-        <div class="app-sidebar menu-fixed" data-scroll-to-active="true">
-            <!-- main menu header-->
-            <!-- Sidebar Header starts-->
-            <div class="sidebar-header">
-                <div class="logo clearfix">
-                <div class="logo-img"><img src="../../../app-assets/img/avada_logo.png" style="height:30px;" /></div>
+
+<body>
+    <div class="content-wrapper">
+        <h2>Save Google Photos albums to ZIP file</h2>
+        <fieldset>
+          <div class="input-group">
+            <input type="text" class="form-control" id="search" placeholder="Enter album URL..." data-np-checked="1">
+            <div class="input-group-append">
+              <button class="btn btn-primary" id="search-button" type="button">Save</button>
             </div>
-            <!-- Sidebar Header Ends-->
-            <!-- / main menu header-->
-            <!-- main menu content-->
-            <!-- main menu content-->
-            <div class="sidebar-background"></div>
-            <!-- main menu footer-->
-            <!-- include includes/menu-footer-->
-            <!-- main menu footer-->
+          </div>
+        </fieldset>
+
+        <div class="spinner-border justify-content-center" role="status">
+            <span class="sr-only">Data loading...</span>
         </div>
 
-
-        <div class="main-panel">
-            <!-- BEGIN : Main Content-->
-            <div class="main-content">
-                <div class="content-overlay"></div>
-
-
-
-
-                <div class="content-wrapper">
-                    <h2>Save Google Photos albums to ZIP file</h2>
-                    <fieldset>
-                      <div class="input-group">
-                        <input type="text" class="form-control" id="search" placeholder="Enter album URL..." data-np-checked="1">
-                        <div class="input-group-append">
-                          <button class="btn btn-primary" id="search-button" type="button">Save</button>
-                        </div>
-                      </div>
-                    </fieldset>
-
-                    <div class="spinner-border justify-content-center" role="status">
-                        <span class="sr-only">Data loading...</span>
-                    </div>
-
-                </div>
-            </div>
-
-            </div>
-
-        </div>
     </div>
+</body>
+
+
 
 
 
